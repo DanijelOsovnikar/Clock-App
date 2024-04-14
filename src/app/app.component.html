@@ -1,13 +1,13 @@
 <main>
   <img
     class="mainImg"
-    src="../assets/desktop/bg-image-daytime.jpg"
+    src="assets/desktop/bg-image-daytime.jpg"
     alt="mainImg"
     *ngIf="!nightDay"
   />
   <img
     class="mainImg"
-    src="../assets/desktop/bg-image-nighttime.jpg"
+    src="assets/desktop/bg-image-nighttime.jpg"
     alt="mainImg"
     *ngIf="nightDay"
   />
@@ -18,7 +18,7 @@
       </p>
       <img
         class="refresh"
-        src="../assets/desktop/icon-refresh.svg"
+        src="assets/desktop/icon-refresh.svg"
         alt="icon-refresh"
         (click)="getQuote()"
       />
@@ -26,7 +26,7 @@
     </header>
     <section class="clock">
       <div class="currently">
-        <img src="../assets/desktop/icon-sun.svg" alt="icon-sun" />
+        <img src="assets/desktop/icon-sun.svg" alt="icon-sun" />
         <h4>GOOD {{ timeOfTheDay }}, IT’S CURRENTLY</h4>
       </div>
       <div class="time">
