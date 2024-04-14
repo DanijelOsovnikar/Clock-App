@@ -1,0 +1,169 @@
+@import "../../Scss/vars";
+
+.infoWrapper {
+  background-color: rgba(198, 198, 198, 0.9);
+  width: 100%;
+  height: 40%;
+
+  .info {
+    width: 100%;
+    padding: 3.5rem 10.31rem 6.5rem;
+    display: flex;
+    justify-content: flex-start;
+    .firstWrapper {
+      padding: 0 7rem 0 0;
+      border-right: 1px solid gray;
+
+      p {
+        color: $blackish;
+      }
+
+      h2 {
+        color: $gray;
+      }
+    }
+
+    .secondWrapper {
+      margin: 0 0 0 5rem;
+
+      p {
+        color: $blackish;
+      }
+
+      h2 {
+        color: $gray;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .infoWrapper {
+    .info {
+      padding: 3rem;
+
+      .firstWrapper {
+        padding: 0 4rem 0 0;
+        h2 {
+          font-size: 2.5rem;
+        }
+      }
+
+      .secondWrapper {
+        h2 {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1144px) {
+  .infoWrapper {
+    .info {
+      .firstWrapper {
+        padding: 0 2rem 0 0;
+      }
+      .secondWrapper {
+        margin: 0 0 0 2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .infoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .info {
+      padding: 3rem;
+      justify-content: space-between;
+      .firstWrapper {
+        padding: 0 4rem 0 0;
+        border-right: unset;
+        h2 {
+          font-size: 3rem;
+        }
+      }
+
+      .secondWrapper {
+        margin: 0;
+        h2 {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 718px) {
+  .infoWrapper {
+    .info {
+      .firstWrapper {
+        h2 {
+          font-size: 2rem;
+        }
+      }
+      .secondWrapper {
+        h2 {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 584px) {
+  .infoWrapper {
+    .info {
+      flex-direction: column;
+      .firstWrapper {
+        padding: 0;
+        .timezone {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .dayOfTheYear {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        h2 {
+          font-size: 1.3rem;
+        }
+        p {
+          font-size: 0.8rem;
+        }
+      }
+      .secondWrapper {
+        .dayOfTheWeek {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .weekNum {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        p {
+          font-size: 0.8rem;
+        }
+        h2 {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .infoWrapper {
+    .info {
+      padding: 1rem;
+    }
+  }
+}

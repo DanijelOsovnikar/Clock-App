@@ -1,0 +1,109 @@
+/* You can add global styles to this file, and also import other style files */
+@import "app/Scss/vars";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  color: $white;
+  font-family: $mainFont;
+  font-size: $h1-size;
+  font-weight: 700;
+  line-height: $h1-height;
+  letter-spacing: -5px;
+}
+
+h2 {
+  color: $white;
+  font-family: $mainFont;
+  font-size: $h2-size;
+  font-weight: 700;
+  line-height: $h2-height;
+}
+
+h3 {
+  color: $white;
+  font-family: $mainFont;
+  font-size: $h3-size;
+  font-weight: 700;
+  line-height: $h3-height;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: $white;
+  font-family: $mainFont;
+  font-size: $h4-size;
+  font-weight: 400;
+  line-height: $h4-height;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+h5 {
+  color: $white;
+  font-family: $mainFont;
+  font-size: $h5-size;
+  font-weight: 700;
+  line-height: $h5-height;
+}
+
+h6 {
+  color: $gray;
+  font-family: $mainFont;
+  font-size: $h6-size;
+  font-weight: 400;
+  line-height: $h6-height;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+p {
+  color: $black;
+  font-family: $mainFont;
+  font-size: $p-size;
+  font-weight: 400;
+  line-height: $p-height;
+}
+
+.primaryBtn {
+  display: flex;
+  align-items: center;
+  color: $blackish;
+  font-family: $mainFont;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  letter-spacing: 0.3125rem;
+  text-transform: uppercase;
+  padding: 0.4rem 0.8rem 0.4rem 1.35rem;
+  background-color: $white;
+  border: none;
+  border-radius: 1.75rem;
+  cursor: pointer;
+}
+
+svg {
+  margin: 0 0 0 0.5rem;
+  circle {
+    transition: fill 0.5s ease;
+  }
+}
+
+.primaryBtn:hover {
+  svg {
+    circle {
+      fill: #999999;
+    }
+  }
+}

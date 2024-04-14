@@ -1,0 +1,27 @@
+//COLORS
+
+$black: rgb(0, 0, 0);
+$blackish: rgba(0, 0, 0, 0.5);
+$bgOverlayColor: rgba(0, 0, 0, 0.4);
+$gray: rgb(48, 48, 48);
+$white: rgb(255, 255, 255);
+
+//TYPOGRAPHY
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+$mainFont: "Inter", sans-serif;
+$h1-size: 200px;
+$h2-size: 56px;
+$h3-size: 28px;
+$h4-size: 20px;
+$h5-size: 18px;
+$h6-size: 18px;
+$p-size: 18px;
+$h1-height: 200px;
+$h2-height: 68px;
+$h3-height: 28px;
+$h4-height: 28px;
+$h5-height: 28px;
+$h6-height: 28px;
+$p-height: 28px;
